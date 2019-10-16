@@ -7,6 +7,6 @@ class Owner
   end
   
   def say_species
-    return "I am human."
+    return "I am a human."
   end
 end
