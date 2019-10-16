@@ -3,6 +3,5 @@ class Owner
   
   def initialize(name)
     @name = name 
-    self.species = "human"
   end
 end
