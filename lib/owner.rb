@@ -60,4 +60,11 @@ class Owner
       cat.mood = "happy"
     end
   end 
+  
+  def sell_pets
+    cats.each do |cat|
+      cat.owner = nil 
+      cat.mood = "nervous "
+    end
+  end
 end
